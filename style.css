@@ -53,6 +53,7 @@ section{
     font-family: sans-serif;
     border-radius: 3px;
     margin-bottom: 45px;
+    cursor: pointer;
 }
  .img-are2 h1{
     text-align: center;
@@ -153,6 +154,7 @@ section{
     margin-left: 61px;
     margin-top: 49px;
     width: 35%;
+    margin-right: 10%;
 }
 .textadd-imges-area3 .textadd-textarea{
     width: 35%;
@@ -166,10 +168,11 @@ section{
 .textadd-textarea p{
     margin-top: 20px;
     font-size: 14px;
+    word-spacing: 2px;
     font-family: sans-serif;
     margin-bottom: 30px;
 }
-.textadd-textarea button{
+.textadd-textarea button {
     padding: 12px 35px;
     color: white;
     font-size: 15px;
@@ -178,4 +181,50 @@ section{
     outline: none;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
+/* scend area work...................................... */
+.textadd-imges-area1212{
+    width: 85%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+.textadd-textarea{
+    width: 30%;
+    height: auto;
+    margin-right: 30%;
+}
+.textadd-imges12{
+    width:50%;
+    height: 300px;
+    z-index: 2;
+    position: relative;
+    
+}
+.textadd-imges12 img:nth-child(2){
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: -38%;
+    right: 14%;
+    z-index: -1;
+}
+/* footer are.......................................... */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    overflow: hidden;
+}
+.footer-text-area h1 span{
+    color: red;
+}
+.footer-text-area{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
