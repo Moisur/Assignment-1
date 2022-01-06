@@ -17,7 +17,7 @@ section{
 .fast-text-area{
     width: 30%;
     height: 300px;
-    margin-right: 25%;
+    margin-right: 20%;
 }
 .fast-img-area{
     width: 45%;
@@ -36,7 +36,7 @@ section{
 .h1-area h1 span{
     color: rgb(236, 138, 81);
 }
-.fast-text-area p{
+.fast-text-area .p1{
     font-size: 13px;
     color: black;
     font-family: sans-serif;
@@ -54,7 +54,7 @@ section{
     border-radius: 3px;
     margin-bottom: 45px;
 }
-.img-are2 h1{
+ .img-are2 h1{
     text-align: center;
     font-size: 50px;
     margin-bottom: 50px;
@@ -66,7 +66,7 @@ section{
 .lilutrator{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
 }
 .lilutrator1{
     max-width: 350px;
@@ -78,15 +78,44 @@ section{
 .lilutrator1 img{
     margin-top: 20px;
     margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 5px;
 }
-.lilutrator1 h3{
+.lilutrator2 img{
     margin-top: 20px;
     margin-left: 20px;
-}
-.lilutrator1 p{
-    
     font-family: sans-serif;
-    padding: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
+.lilutrator3 img{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px; 
+} 
+.lilutrator1 h3{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+}
+.lilutrator2 h3{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+}
+.lilutrator3 h3{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
 }
 .lilutrator2{
     max-width: 350px;
@@ -99,4 +128,12 @@ section{
     height: 300px;
     background-color: #FFF4D6;
     border-radius: 20px;
+} 
+.tuiatovejalikn{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px; 
 }
+/* next area-------------------------------------------------------------------------- */
