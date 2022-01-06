@@ -5,17 +5,52 @@
 }
 section{
     width: 85%;
+    height: auto;
     margin: auto;
-    height: 200vh; 
-    background-color: antiquewhite;  
     overflow: hidden;
 }
-.section-one{
+.fast-area{
     display: flex;
-    justify-content: space-between;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .fast-text-area{
+    width: 30%;
+    height: 300px;
+    margin-right: 25%;
+}
+.fast-img-area{
+    width: 45%;
+    height: 300px;
+}
+.h1-area{
     border-left: 4px solid red;
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.h1-area h1{
+    padding:5px;
+}
+.h1-area h1 span{
+    color: rgb(236, 138, 81);
+}
+.fast-text-area p{
+    font-size: 13px;
+    color: black;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
+.fast-text-area button{
+    background-color: rgb(255, 80, 80);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
     border-radius: 3px;
+    margin-bottom: 45px;
 }
