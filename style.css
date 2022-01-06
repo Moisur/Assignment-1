@@ -26,7 +26,7 @@ section{
 .h1-area{
     border-left: 4px solid red;
     font-family: 'Libre Baskerville', serif;
-    border-radius: 4px;
+    border-radius: 3px;
     font-size: 25px;
     margin-bottom: 20px;
 }
@@ -44,7 +44,7 @@ section{
     margin-bottom: 20px;
 }
 .fast-text-area button{
-    background-color: rgb(255, 80, 80);
+    background-color: #FF5959;
     padding: 10px 20px;
     border: none;
     outline: none;
@@ -137,3 +137,45 @@ section{
     padding: 5px; 
 }
 /* next area-------------------------------------------------------------------------- */
+.textadd-imges-area3{
+    background-image: url("imges/dream-bg.png");
+    width: 93%;
+    height: 400px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60px;
+    display: flex;
+    overflow: hidden;
+    
+}
+.textadd-imges-area3 .textadd-imges{
+    margin-left: 61px;
+    margin-top: 49px;
+    width: 35%;
+}
+.textadd-imges-area3 .textadd-textarea{
+    width: 35%;
+    margin-top: 80px;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.textadd-textarea h1{
+    padding: 5px 0px;
+}
+.textadd-textarea p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.textadd-textarea button{
+    padding: 12px 35px;
+    color: white;
+    font-size: 15px;
+    background-color: #FF5959;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
